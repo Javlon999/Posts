@@ -169,7 +169,7 @@ export const counterSlice = createSlice({
           body: action.payload.body.body,
           title: action.payload.body.title,
         };
-        console.log('reduxData',data)
+     
         state.addedposts.push(data);
       })
     .addCase(updatePost.rejected, (state) => {
