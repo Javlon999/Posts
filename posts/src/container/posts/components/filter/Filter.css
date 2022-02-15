@@ -1,0 +1,47 @@
+.FilterValue {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.FilterValue input {
+  display: flex;
+  border: none;
+  height: 45px;
+  margin: 5px;
+  padding: 0px 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.FilterValue select {
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 0px 10px;
+  width: 300px;
+}
+
+select:focus {
+  outline: none;
+}
+.resetFilter {
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px 20px !important;
+  cursor: pointer;
+  color: #000000;
+  font-weight: 600;
+  font-family: Arial;
+  background-color: #ffff;
+}
+.resetFilter:hover {
+  background-color: rgb(40, 68, 129);
+  color: #ffff;
+  transition: all 0.3s;
+}
+input:focus {
+  outline: none;
+}

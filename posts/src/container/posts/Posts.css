@@ -1,0 +1,106 @@
+.titleWithFilter {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.listOfPosts .fullInfo {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 0px 5px;
+  cursor: pointer;
+  color: #000000;
+  font-weight: 600;
+  font-family: Arial;
+}
+.listOfPosts:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.listOfPosts .fullInfo:hover {
+  background-color: rgb(40, 68, 129);
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.title {
+  font-family: Arial;
+  font-weight: 600;
+  font-size: 26px;
+  color: #363535;
+}
+.posts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.listOfPosts {
+  padding: 10px 0 0 0;
+  margin: 0;
+  width: 500px;
+}
+.listOfPosts h4 {
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+}
+.listOfPosts li {
+  list-style: none;
+  font-size: 16px;
+  border-radius: 15px;
+  font-family: Arial;
+  font-weight: 400;
+  min-height: 160px;
+  padding: 20px 15px;
+  text-align: left;
+  margin: 10px 15px;
+  background-color: #ffffff !important;
+  cursor: pointer;
+}
+.pagination {
+  padding: 20px 0px 10px 0px;
+}
+.paginationButton {
+  display: inline-block;
+}
+.paginationButton .element {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+
+.paginationButton .element:hover:not(.active) {
+  background-color: #ddd;
+}
+.addPost {
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px 20px !important;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: Arial;
+  background-color: rgb(40, 68, 129);
+}
+.addPost p {
+  margin: 0;
+  font-size: 14px;
+  padding: 8px 5px;
+}
+.addPost:hover {
+  color: #000000;
+  transition: all 0.3s;
+  background-color: #ffffff;
+}
+.actionButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
